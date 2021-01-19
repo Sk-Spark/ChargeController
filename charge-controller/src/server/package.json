@@ -1,0 +1,20 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "nodemon ./src/server.ts ",
+    "start": "node ./dist/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^9.1.1"
+  },
+  "dependencies": {
+    "@types/execa": "^2.0.0"
+  }
+}
